@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- //only percentager enot working -->
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 style="text-align: center; color: snow; " >Calculator</h1>
+   
+   <center>
+   <div class="container">
+    <br>
+    <!-- <p class="disp"></p> -->
+    <div class="disp"> <input type="text" placeholder="00" class="input">    
+       
+   <button onclick="handleBackspace()" class="im"></button>
+   
+   
+</div>
+</div>
+
+<div class="container">
+    
+    </button>
+        <div class="td">
+        <button class="but" id="box3">C</button>
+        <button class="but"  onclick="calculateSquareRoot()" id="box3">√</button>
+        <button class="but" onclick="calculatePercentage()" id="box3">%</button>
+        <button class="but" id="box2">/</button>   
+    </div>
+    
+    <div class="td">
+    <button class="but" id="box1">7</button>
+    <button class="but" id="box1">8</button>
+    <button class="but" id="box1">9</button>
+    <button class="but" id="box2">*</button>
+</div>
+<div class="td">
+    <button class="but" id="box1">4</button>
+    <button class="but" id="box1">5</button>
+    <button class="but" id="box1">6</button>
+    <button class="but" id="box2">-</button>
+   </div>
+   <div class="td">
+    <button class="but" id="box1">1</button>
+    <button class="but" id="box1">2</button>
+    <button class="but" id="box1">3</button>
+    <button class="but" id="box2">+</button>
+   </div>
+   <div class="td">
+    <button class="but" id="box1" onclick="toggleSign()">+/-</button>
+    <button class="but" id="box1">0</button>
+    <button class="but" id="box1">.</button>
+    <button class="but" id="box2">=</button>
+   </div>
+   
+</div>
+</center>
+<script src="script.js"></script>
+
+</body>
+</html>

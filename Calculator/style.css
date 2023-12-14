@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+*{
+    font-family: 'Playpen Sans', cursive;
+    background-color: 	#252526;
+}
+div{
+    background-color: rgb(181 176 176);
+}
+
+p{
+    /* background-color: red; */
+}
+.container{
+    text-align: center;
+    width: 297px;
+    
+    border: 2px solid grey;
+    border-radius: 14px;
+    margin: 4px 0px;
+}
+.td{
+ margin: 08px 0px;;
+}
+#box1{
+    background-color: #ffa0a0;
+}
+#box3{
+    background-color: rgb(255, 188, 100);
+}
+#box2{
+    background-color: rgb(255, 188, 100);
+}
+#box1:hover{
+    background-color:#dc4848 ;
+}
+#box2:hover{
+    background-color:rgb(143, 84, 8) ;
+}
+#box3:hover{
+    background-color:rgb(143, 84, 8) ;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: large;
+    
+}
+button:hover{
+    background-color: rgb(128, 130, 130);
+    cursor: pointer;
+}
+
+.im{
+    /* float: right; */
+    background-image: url("backspace.png");   
+    background-size: 75%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 3px;
+    
+}
+
+
+.input{
+    width:181px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 24px;
+    text-align: right; 
+    background-color: white;
+}
+.disp{
+    margin-left: 23px;
+    padding: ;
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
